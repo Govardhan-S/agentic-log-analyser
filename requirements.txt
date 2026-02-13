@@ -1,0 +1,28 @@
+# Core LangChain
+langchain==0.1.16
+langchain-community==0.0.34
+
+# Ollama LLM integration
+ollama==0.1.8
+
+# Embeddings (MiniLM)
+sentence-transformers==2.2.2
+transformers>=4.36.0
+torch>=2.0.0
+
+# Vector store
+faiss-cpu==1.7.4
+
+# Document loaders
+pypdf==4.0.2
+unstructured==0.12.4
+
+# Utilities
+numpy>=1.24.0
+tqdm>=4.66.0
+
+# Optional (for APIs / UI)
+fastapi==0.110.0
+uvicorn==0.27.1
+python-multipart==0.0.9
+streamlit==1.31.0
